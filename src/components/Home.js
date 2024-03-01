@@ -2,6 +2,7 @@ import React from 'react';
 import './Style.css';
 import Navbar from './Navbar';
 import Header from './Header';
+import Pricing from './Pricing';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
    <div className=''>
       <Navbar/>
       <Header/>
+      <Pricing/>
     </div>
       
     </div>
