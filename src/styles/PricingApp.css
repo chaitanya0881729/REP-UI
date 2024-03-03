@@ -30,7 +30,7 @@
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 375px 658px;
-  z-index: 999;
+  z-index: -1;
 }
 
 .PricingApp::before {
