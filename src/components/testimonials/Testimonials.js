@@ -3,6 +3,7 @@ import '../../styles/Testimonials.css'
 
 const Testimonials = () => {
   return (
+    <div className='container'>
     <main>
       <article className="card card-1">
         <div className="card__head">
@@ -80,6 +81,7 @@ const Testimonials = () => {
         </p>
       </article>
     </main>
+    </div>
   );
 }
 
