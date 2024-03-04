@@ -1,5 +1,3 @@
-// Pricing.js
-
 import React, { useState } from "react";
 import PricingCard from "./PricingCard";
 import '../styles/PricingCard.css';
@@ -11,7 +9,6 @@ const Pricing = () => {
   return (
     <div className="PricingApp">
       <div className="app-container">
-        {/* Header */}
         <header>
           <h1 className="header-topic">Our Pricing Plan</h1>
           <div className="header-row">

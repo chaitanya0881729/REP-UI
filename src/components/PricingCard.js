@@ -10,7 +10,6 @@ const PricingCard = ({ title, price, storage, text1, text2,text3, text4,  text5,
         <p className="card-title">{title}</p>
         <h1 className="card-price">{formattedPrice}</h1>
       </header>
-      {/* features here */}
       <div className="card-features">
         <div className="card-storage">{storage}</div>
         <div className="card-text">{text1}</div>

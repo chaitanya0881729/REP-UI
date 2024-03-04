@@ -52,7 +52,7 @@ button {
   font-size: var(--primary-fs);
 }
 
-/*toggle*/
+
 .PricingApp .price-switch {
   --border-radius: 10em;
   display: block;
@@ -99,7 +99,7 @@ button {
 .PricingApp .price-checkbox:checked + .switch-slider::before {
   transform: translateX(0%);
 }
-/*------*/
+
 
 .PricingApp .app-container {
   width: min(90%, 70rem);

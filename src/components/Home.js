@@ -3,6 +3,8 @@ import './Style.css';
 import Navbar from './Navbar';
 import Header from './Header';
 import Pricing from './Pricing';
+import { FooterContainer } from './footer/footer';
+
 
 const Home = () => {
   return (
@@ -12,6 +14,7 @@ const Home = () => {
       <Navbar/>
       <Header/>
       <Pricing/>
+      <FooterContainer/>
     </div>
       
     </div>
