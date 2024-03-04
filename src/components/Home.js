@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Header from './Header';
 import Pricing from './Pricing';
 import { FooterContainer } from './footer/footer';
+import Testimonials from './testimonials/Testimonials';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Navbar/>
       <Header/>
       <Pricing/>
+      <Testimonials/>
       <FooterContainer/>
     </div>
       

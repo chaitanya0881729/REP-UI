@@ -12,18 +12,18 @@ const Pricing = () => {
         <header>
           <h1 className="header-topic">Our Pricing Plan</h1>
           <div className="header-row">
-            <p>Annually</p>
-            <label className="price-switch">
-              <input
-                className="price-checkbox"
-                onChange={() => {
-                  setSelectMonthly((prev) => !prev);
-                }}
-                type="checkbox"
-              />
-              <div className="switch-slider"></div>
-            </label>
-            <p>Monthly</p>
+            <button
+              className={`billing-option ${selectMonthly ? 'active' : ''}`}
+              onClick={() => setSelectMonthly(true)}
+            >
+              Monthly
+            </button>
+            <button
+              className={`billing-option ${!selectMonthly ? 'active' : ''}`}
+              onClick={() => setSelectMonthly(false)}
+            >
+              Annually
+            </button>
           </div>
         </header>
         {/* Cards here */}

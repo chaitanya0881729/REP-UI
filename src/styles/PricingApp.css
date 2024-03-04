@@ -127,6 +127,36 @@ button {
   align-items: center;
 }
 
+.PricingApp .billing-option {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.PricingApp .billing-option:hover {
+  opacity: 0.7;
+}
+
+.PricingApp .billing-option.monthly {
+  background-color: var(--primary-linear-gradient);
+  color: white;
+}
+
+.PricingApp .billing-option.annually {
+  background-color: var(--neutral-very-light-grayish-blue);
+  color: var(--neutral-dark-grayish-blue);
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width: 800px) {
   .PricingApp {
     padding-block: 4em;
